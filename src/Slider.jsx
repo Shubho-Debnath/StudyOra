@@ -10,47 +10,47 @@ import "swiper/css/navigation";
 
 const info = [
   {
-    image: "/src/assets/images/slider-image-1.jpg",
+    image: "/images/team/slider-image-1.jpg",
     name: "Polash Goon",
     position: "Senior Executive Officer",
   },
   {
-    image: "/src/assets/images/slider-image-2.jpg",
+    image: "/images/team/slider-image-2.jpg",
     name: "Priyanka Deb",
     position: "Documentation Executive",
   },
   {
-    image: "/src/assets/images/slider-image-9.jpg",
+    image: "/images/team/slider-image-9.jpg",
     name: "Gyanodanondini Debi",
     position: "Student counselor",
   },
   {
-    image: "/src/assets/images/slider-image-4.jpg",
+    image: "/images/team/slider-image-4.jpg",
     name: "Raisul Haque",
     position: "Inquiry Officer",
   },
   {
-    image: "/src/assets/images/slider-image-5.jpg",
+    image: "/images/team/slider-image-5.jpg",
     name: "Adi Al Jamil",
     position: "Accounts Officer",
   },
   {
-    image: "/src/assets/images/slider-image-6.jpg",
+    image: "/images/team/slider-image-6.jpg",
     name: "Shubho Debnath",
     position: "University Placement Officer",
   },
   {
-    image: "/src/assets/images/slider-image-7.jpg",
+    image: "/images/team/slider-image-7.jpg",
     name: "Muddassir Promi",
     position: "Documentation Executive",
   },
   {
-    image: "/src/assets/images/slider-image-8.jpg",
+    image: "/images/team/slider-image-8.jpg",
     name: "Priyanka Deb ",
     position: "Event Organizer",
   },
   {
-    image: "/src/assets/images/slider-image-3.jpg",
+    image: "/images/team/slider-image-3.jpg",
     name: "Forence Dicosta",
     position: "Compliance Officer",
   },

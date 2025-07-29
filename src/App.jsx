@@ -9,6 +9,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import bgVideo from "./assets/images/compressed video.mp4";
+
+import PearsonLogo from './assets/images/Pearson_logo.svg.png';
+import IdpLogo from './assets/images/idp-ielts-logo.png';
+import BritishCouncil from './assets/images/BritishCouncil.png';
+import KaplanLogo from './assets/images/Kaplan,_Inc._logo.svg.png';
+
+
+
 import { FaPenToSquare } from "react-icons/fa6";
 import Slider from "./Slider";
 
@@ -136,32 +144,16 @@ const App = () => {
         {/* ------------floating div---------------- */}
         <div className="-mt-5 xl:-mt-10 backdrop-blur-xl  bg-white/20 border shadow-lg  border-white/10 rounded-xl p-5 z-20 w-10/12 h-[4vh] xl:h-[8vh]   flex justify-center items-center gap-4">
           <div className="w-2/12 p-2  ">
-            <img
-              src="/src/assets/images/Pearson_logo.svg.png"
-              alt=""
-              className="w-16 xl:w-26"
-            />
+            <img src={PearsonLogo} alt="Pearson" className="w-16 xl:w-26" />
           </div>
           <div className="w-2/12 p-2 ">
-            <img
-              src="/src/assets/images/idp-ielts-logo.png"
-              alt=""
-              className="w-12 xl:w-20"
-            />
+            <img src={IdpLogo} alt="IDP" className="w-12 xl:w-20" />
           </div>
           <div className="w-2/12 p-2">
-            <img
-              src="/src/assets/images/BritishCouncil.png"
-              alt=""
-              className="w-16 xl:w-26"
-            />
+            <img src={BritishCouncil} alt="British Council" className="w-16 xl:w-26" />
           </div>
           <div className="w-2/12 p-2 ">
-            <img
-              src="/src/assets/images/Kaplan,_Inc._logo.svg.png"
-              alt=""
-              className="w-16 xl:w-26"
-            />
+            <img src={KaplanLogo} alt="Kaplan" className="w-16 xl:w-26" />
           </div>
         </div>
 
@@ -428,192 +420,192 @@ const App = () => {
           <div className="w-full flex flex-col lg:gap-5 items-center justify-between overflow-hidden">
             <div className="flex justify-center items-center animate-marquee-left gap-9  lg:gap-14">
               <img
-                src="/src/assets/images/universities/1.png"
+                src="/images/universities/1.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/3.png"
+                src="/images/universities/3.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/4.png"
+                src="/images/universities/4.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/6.png"
+                src="/images/universities/6.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/7.png"
+                src="/images/universities/7.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/8.png"
+                src="/images/universities/8.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/9.png"
+                src="/images/universities/9.png"
                 className="w-22 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-30"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/12.png"
+                src="/images/universities/12.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/13.png"
+                src="/images/universities/13.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/14.png"
+                src="/images/universities/14.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/15.png"
+                src="/images/universities/15.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/16.png"
+                src="/images/universities/16.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/17.png"
+                src="/images/universities/17.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/18.png"
+                src="/images/universities/18.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/19.jpg"
+                src="/images/universities/19.jpg"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/1.png"
+                src="/images/universities/1.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/3.png"
+                src="/images/universities/3.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/4.png"
+                src="/images/universities/4.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/6.png"
+                src="/images/universities/6.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/7.png"
+                src="/images/universities/7.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/8.png"
+                src="/images/universities/8.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/9.png"
+                src="/images/universities/9.png"
                 className="w-22 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-30"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/12.png"
+                src="/images/universities/12.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/13.png"
+                src="/images/universities/13.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/14.png"
+                src="/images/universities/14.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/15.png"
+                src="/images/universities/15.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/16.png"
+                src="/images/universities/16.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/17.png"
+                src="/images/universities/17.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/18.png"
+                src="/images/universities/18.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/19.jpg"
+                src="/images/universities/19.jpg"
                 className="w-26 lg:w-34"
                 alt=""
               />
@@ -621,192 +613,192 @@ const App = () => {
 
             <div className="flex justify-center items-center animate-marquee-right gap-9 lg:gap-14">
               <img
-                src="/src/assets/images/universities/1.png"
+                src="/images/universities/1.png"
                 className="w-20 lg:w-24"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/3.png"
+                src="/images/universities/3.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/4.png"
+                src="/images/universities/4.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/6.png"
+                src="/images/universities/6.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/7.png"
+                src="/images/universities/7.png"
                 className="w-20 lg:w-36"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/8.png"
+                src="/images/universities/8.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/9.png"
+                src="/images/universities/9.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/12.png"
+                src="/images/universities/12.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/13.png"
+                src="/images/universities/13.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/14.png"
+                src="/images/universities/14.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/15.png"
+                src="/images/universities/15.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/16.png"
+                src="/images/universities/16.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/17.png"
+                src="/images/universities/17.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/18.png"
+                src="/images/universities/18.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/19.jpg"
+                src="/images/universities/19.jpg"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/1.png"
+                src="/images/universities/1.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/3.png"
+                src="/images/universities/3.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/4.png"
+                src="/images/universities/4.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/6.png"
+                src="/images/universities/6.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/7.png"
+                src="/images/universities/7.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/8.png"
+                src="/images/universities/8.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/9.png"
+                src="/images/universities/9.png"
                 className="w-22 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-30"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/12.png"
+                src="/images/universities/12.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/13.png"
+                src="/images/universities/13.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/14.png"
+                src="/images/universities/14.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/15.png"
+                src="/images/universities/15.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/16.png"
+                src="/images/universities/16.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/17.png"
+                src="/images/universities/17.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/18.png"
+                src="/images/universities/18.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/19.jpg"
+                src="/images/universities/19.jpg"
                 className="w-26 lg:w-34"
                 alt=""
               />
@@ -814,202 +806,202 @@ const App = () => {
 
             <div className="flex justify-center items-center animate-marquee-left gap-9  lg:gap-14">
               <img
-                src="/src/assets/images/universities/13.png"
+                src="/images/universities/13.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/16.png"
+                src="/images/universities/16.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/1.png"
+                src="/images/universities/1.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/6.png"
+                src="/images/universities/6.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/9.png"
+                src="/images/universities/9.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/19.jpg"
+                src="/images/universities/19.jpg"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/6.png"
+                src="/images/universities/6.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/3.png"
+                src="/images/universities/3.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/14.png"
+                src="/images/universities/14.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/12.png"
+                src="/images/universities/12.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/8.png"
+                src="/images/universities/8.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/18.png"
+                src="/images/universities/18.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/7.png"
+                src="/images/universities/7.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/17.png"
+                src="/images/universities/17.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/4.png"
+                src="/images/universities/4.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/15.png"
+                src="/images/universities/15.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/13.png"
+                src="/images/universities/13.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/16.png"
+                src="/images/universities/16.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/1.png"
+                src="/images/universities/1.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/6.png"
+                src="/images/universities/6.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/9.png"
+                src="/images/universities/9.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/19.jpg"
+                src="/images/universities/19.jpg"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/6.png"
+                src="/images/universities/6.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/3.png"
+                src="/images/universities/3.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/14.png"
+                src="/images/universities/14.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/12.png"
+                src="/images/universities/12.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/8.png"
+                src="/images/universities/8.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/18.png"
+                src="/images/universities/18.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/7.png"
+                src="/images/universities/7.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/17.png"
+                src="/images/universities/17.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/4.png"
+                src="/images/universities/4.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/15.png"
+                src="/images/universities/15.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/10.png"
+                src="/images/universities/10.png"
                 className="w-26 lg:w-34"
                 alt=""
               />
               <img
-                src="/src/assets/images/universities/5.png"
+                src="/images/universities/5.png"
                 className="w-20 lg:w-26"
                 alt=""
               />
